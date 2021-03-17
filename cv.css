@@ -1,0 +1,305 @@
+@font-face
+{
+    font-family:"aaa";
+    src: url(aaa.ttf);
+}
+
+html
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+body
+{
+    background: linear-gradient(337deg, rgba(173,0,0,1) 0%, rgba(246,246,246,1) 50%, rgba(112,112,112,1) 100%);
+}
+
+
+
+.en_tete
+{
+    font-family:"aaa";
+    color:rgb(168, 16, 16);
+    font-size:3em;
+    text-align: right;
+    overflow: hidden; 
+    border-right: .15em solid rgb(0, 0, 0); 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 2.5s steps(90),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0) }
+  }
+
+#rex
+{
+    float:left;
+    height:25em;
+    width:20em;
+    margin-bottom: 3em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px 0px 40px 0px;
+}
+
+#coord 
+{
+    font-weight: bold;
+    padding:10px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4b4b4b, 2px -2px 0 #4b4b4b, -2px 2px 0 #4b4b4b, -2px -2px 0 #4b4b4b, 2px 0px 0 #4b4b4b, 0px 2px 0 #4b4b4b, -2px 0px 0 #4b4b4b, 0px -2px 0 #4b4b4b;
+    font-size: larger;
+
+
+}
+
+#liste1
+{
+    font-family: "aaa", arial, helvetica;
+    color: rgb(139, 18, 9);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#competences
+{
+    border-radius: 0px 35px 5px 35px;
+}
+
+#liste2
+{
+
+    margin-top: 15px;
+    margin-bottom: -15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    ;
+}
+
+.comp::before
+{
+    content: "→ ";
+}
+
+.comp:hover
+{
+    
+    text-shadow: 3px 1px 1px rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.comp::after
+{
+    content:" ←";
+}
+    
+
+h2
+{
+    clear:left;
+    border: 2px solid rgb(146, 0, 0);
+    text-align:center;
+    padding:5px;
+}
+
+
+#inspirations
+{
+    border-radius: 0px 35px 5px 35px;
+}
+
+#gif
+{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#exp
+{
+    text-align:center;
+}
+#gifChien
+{
+    width: 300px;
+    height:300px;
+    margin: 50px 150px 0 0;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+td,th
+{
+    border:2px solid red;
+    
+}
+
+table
+
+{
+    text-align: center;
+    border-collapse: collapse;
+    caption-side: bottom;
+    font-size: large;
+    margin: auto;
+   
+}
+
+#fond
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+#videos
+{
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    padding:2em;
+}
+
+
+
+
+.bouton
+{
+
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #ca0000 5%, #000000 100%);
+	background-color:#000000;
+	border-radius:8px;
+	display:flex;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+    margin:auto;
+    margin-top: 10px;
+}
+.buton:hover {
+	background:linear-gradient(to bottom,#000000 5%, #ca0000   100%);
+	background-color:#960000;
+}
+.bouton:active {
+	position:relative;
+	top:1px;
+}
+
+#body2
+{
+    background: linear-gradient(0deg, rgba(255,248,253,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+#en_tete
+{
+    color: #e0e0e0;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+}
+#toutou
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+figure img
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+figcaption
+{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+#legend 
+{
+    margin-top:15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+}
+#textarea
+{
+    margin-top: 15px;
+
+}
+
+#info
+{
+    display:block;
+    text-align: right;
+}
+
+.bouton2
+{
+
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #ebee35 5%,#e0e0e0   100%);
+	background-color:#000000;
+	border-radius:8px;
+	display:flex;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+    margin:auto;
+    margin-top: 10px;
+}
+.bouton2:hover {
+	background:linear-gradient(to bottom,#e0e0e0 5%, #ebee35   100%);
+	background-color:#fbff00;
+}
+.bouton2:active {
+	position:relative;
+	top:1px;
+}
+
